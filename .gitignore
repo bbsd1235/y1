@@ -1,0 +1,18 @@
+node_modules/
+
+# Local agent workspace and generated demo files
+workspace/
+
+# Local runtime data
+.mini-dsh/
+*.log
+
+# TypeScript and editor residue
+dist/
+lib/
+coverage/
+.DS_Store
+*.tsbuildinfo
+
+# Tests are kept locally for development and are not part of this source release.
+src/*.test.ts
