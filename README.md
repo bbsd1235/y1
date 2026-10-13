@@ -1,5 +1,7 @@
 # mini-dsh
 
+> 插件化架构
+
 mini-dsh 是一个基于 DeepSeek Harness 思想实现的轻量级 Coding Agent Harness。它的重点不是复刻完整的 dsh，而是用较少的代码展示一套可理解、可扩展的 Agent Runtime：通过插件提供 Model、Tool、Session、Context Manager 和 Agent Loop 等能力，再由 Runtime 负责组装它们。
 
 这个项目适合作为学习 Agent Harness、插件化架构、工具调用、会话恢复和上下文管理的示例项目。
